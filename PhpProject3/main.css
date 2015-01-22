@@ -1,0 +1,78 @@
+body
+{
+        width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	color: black;
+	font: normal 12pt Arial,Helvetica,sans-serif;
+	background:aquamarine;
+       
+}
+
+table {
+    
+    border: 1px orangered;
+    
+    
+}
+
+th{
+    background-color: cornflowerblue;
+    color:black;
+     
+}
+
+td{
+    background-color:white;
+    color:black;
+}
+
+p{
+    font:serif;
+    font-size:large;
+
+}
+
+h1{
+    font:sans-serif;
+    font-style:oblique;
+   
+}
+
+h2{
+    font:sans-serif;
+    font-style:italic;
+}
+
+#mainmenu
+{
+	background:aquamarine repeat-x left top;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:black;
+	background-color:cornflowerblue;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: black;
+	background-color:aquamarine;
+	text-decoration:none;
+}
